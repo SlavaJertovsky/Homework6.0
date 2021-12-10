@@ -1,0 +1,93 @@
+
+
+@media (max-width: 768px) {
+    .container{
+        width: 720px;
+        
+    }
+
+ 
+
+.trends-inspirations__subtitle {
+    width: 350px;
+    margin-top: 75px;  
+    margin-left: -52px; 
+}
+
+.trends-text__title{
+    width: 500px;
+}
+.trends-email{
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+
+.slick-prev,
+.slick-next{
+   margin-left: 60px;
+}
+
+.slick-prev{
+    margin-left: 10px;
+}
+.trends-slider{
+    margin-top: 20px;
+}
+.item-low{
+    display: none;
+}
+
+}
+
+
+@media (max-width: 375px) {
+
+    .container{
+        width: 311px;
+    }
+    .trends-text__title{
+        width: 311px;
+    }
+
+    .trends-text__link{
+        margin-bottom: 32px;
+    }
+
+    .trends-email{
+        flex-direction: column; 
+        margin-top: -30px;     
+       
+    }
+    .trends-email__input{
+        margin-bottom: 16px;
+    }
+    
+    .trends-email__button{
+        margin-bottom: 64px;
+    }
+    .trends-inspirations__subtitle{
+        width: 300px;
+        margin-left: -100px
+    }
+    .trends-slider{
+        display: none;
+
+    }
+    .trends-inspirations__subtitle{
+        margin-bottom: 40px;
+    }
+    .item-low{
+        display: flex;
+        width: 311px;
+        flex-wrap: wrap;
+        
+    }
+    .chair{
+        margin: 7px;
+    }
+  
+    
+    }
+ 
+

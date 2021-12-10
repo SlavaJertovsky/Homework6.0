@@ -1,0 +1,133 @@
+body {
+    font-family: "Varta", "Merriweather", sans-serif;
+    margin: 0;
+    color: #706458;
+    background-color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+/* trends */
+.trends {
+    padding: 70px 0;
+}
+
+.trends-text__title {
+    font-family: "Merriweather", sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    margin-bottom: 15px;
+    color: #121212;
+}
+
+.trends-text__subtitle {
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(112, 100, 88, 0.9);
+    margin-bottom: 10px;
+}
+
+.trends-text__link {
+    letter-spacing: 0.3px;
+    color: #A06056;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+    line-height: 25px;
+    margin-bottom: 64px;
+    display: inline-block;
+}
+
+.trends-email {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.trends-email__input {
+    background: rgba(243, 238, 232, 0.3);
+    border-radius: 1px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #121212;
+    padding: 15px;
+    box-sizing: border-box;
+    outline: none;
+    border: 0;
+    width: 296px;
+    margin-right: 16px;
+}
+
+.trends-email__button {
+    background: #534B42;
+    border-radius: 1px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 15px 30px;
+    border: 0;
+    cursor: pointer;
+}
+
+.trends-slider {
+    margin-bottom: 40px;
+}
+
+.trends-inspirations__title {
+    font-family: "Merriweather", sans-serif;
+    font-weight: 300;
+    font-size: 45px;
+}
+
+.trends-inspirations__subtitle {
+    font-weight: normal;
+    font-size: 18px;
+    color: #706458;
+}
+
+
+/* slider */
+.slick-initialized .slick-slide {
+    margin: 0 15px;
+}
+
+.slick-arrow {
+    top: calc(100% + 40px);
+}
+
+.slick-prev {
+    left: 68%;
+}
+
+.slick-next {
+    left: 73%;
+}
+
+.slick-prev,
+.slick-next {
+    border: 2px solid #A06056;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+}
+
+.slick-prev:before {
+    content: url('../img/trends/icon-left.svg');
+}
+
+.slick-next:before {
+    content: url('../img/trends/icon-right.svg');
+    
+}
+
+
